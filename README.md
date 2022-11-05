@@ -40,20 +40,34 @@ data-512-courseproject/
   |- readme.md
   |- rawdata/
     |- dinosaur.genera.cleaned
-  |- cleaneddata/
+  |- cleaned_intermediary_files/
     |- jackson_confirmed_cases.csv
     |- jackson_cdc_mandates.csv
     |- jackson_mask_compliance_survey.csv
-  |- results/
-    |- 
-    |- 
-    |- 
-  |- Part 1 Common Analysis
+  |- Part 1 Common Analysis.ipynb
+  |- part1_a4_visualization.png
     
 ```
     
     
 ## Results
 
+Change Point Detection of COVID-19 Cases in Jackson county, Missouri
+
+![Change Point Detection of COVID-19 Cases in Jackson county, Missouri](https://github.com/reeya26/data-512-courseproject/blob/main/part1_a4_visualization.png)
+
+We can note the following points from the visualization:
+
+1. During the first part of no mask guidelines, the cases were at a minimal, as Covid-19 had not spread to all parts of US.
+
+2. During the 1st change-point, around July 2020 we can observe that even though the mask guidelines required compulsory masks, there was a slight rise in cases. This could be as Jackson county did not have any strict mask mandates as this was also a few month into the pandemic when people were more aware about COVID-19.
+
+3. A similar pattern is observed in the 2nd change-point, around November 2020, where the cases continue to rise.
+
+4. During the 3rd change-point, February 2021, we can see that the even though mask guidelines were relaxed, there was still a decline in the cases. This could be due to the fact that vaccines had started rolling out.
+
+5. Between the 4th and 5th change-point, from July to September 2021, with the relaxed mask guidelines the cases increased again but decreased soon.
+
+In conclusion, there isn't a very direct relation between mask guidelines and the Covid-19 cases. This makes sense since Jackson county did not have a strict mask mandate so people would not be following CDC guidelines strictly, but rather use caution when they deem fit. We also observe a clear decrease once the vaccines started being provided
 
 
